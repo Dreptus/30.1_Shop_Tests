@@ -1,0 +1,16 @@
+.root {
+  margin-top: 50px;
+
+  .category_name {
+    margin-left: 95px;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 0 80px;
+    .card {
+      flex: 1 0 33%;
+    }
+  }
+}
